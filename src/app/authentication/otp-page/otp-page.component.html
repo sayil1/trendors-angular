@@ -1,0 +1,32 @@
+<div class="main">
+    <app-auth-header></app-auth-header>
+    <div style="margin-top: 10%;">
+        <img class="centered-image" src="../../../assets/png/otp.png" alt="" srcset="">
+    </div>
+
+    <div style="margin-top: 10%;" class="bold-text">
+        Verification
+    </div>
+
+    <div class="text">
+        We have sent a verification code to your number
+
+    </div>
+
+    <div class="number">
+        +234-90-1583-2466
+    </div>
+
+    <div style="margin-top: 20%;">
+        <ng-otp-input [config]="{length:4, inputStyles:{height:'56px', width:'56px', margin:'4%'}}"></ng-otp-input>
+    </div>
+    <div class="text" style="text-align: center;">
+        Didn’t recive code? <span routerLink="/signup" style="color:  var(--primary, #5034EF);">Resend
+        </span>
+
+        <div style="margin-top: 16%;" class="button">
+            <button>Submit</button>
+        </div>
+
+
+    </div>
