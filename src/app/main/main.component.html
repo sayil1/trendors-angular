@@ -1,0 +1,49 @@
+<!-- <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Pure CSS Menu</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">LR</a>
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line">X</span></label
+      >
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li class="subnav">
+            <p class="subnavbtn">Contact <i class="fa fa-caret-down"></i></p>
+            <div class="subnav-content">
+              <a href="#">Email</a>
+              <a href="#">Twitter</a>
+              <a href="#">Phone</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <app-feed-posts></app-feed-posts>
+    </main>
+  </body>
+</html> -->
+
+<mat-drawer-container class="example-container">
+  <mat-drawer #drawer class="example-sidenav" mode="over">
+    <app-side-nav></app-side-nav>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+
+    <app-feed-posts></app-feed-posts>
+  </div>
+</mat-drawer-container>

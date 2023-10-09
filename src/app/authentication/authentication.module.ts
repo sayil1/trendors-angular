@@ -8,6 +8,7 @@ import { SplashScreenComponent } from '../general/splash-screen/splash-screen.co
 import { OtpPageComponent } from './otp-page/otp-page.component';
 import { NgOtpInputModule } from 'ng-otp-input';
 import { AuthComponentHeader } from '../general/header/auth/auth.component';
+import { ForgotPaswordComponent } from './forgot-pasword/forgot-pasword.component';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { AuthComponentHeader } from '../general/header/auth/auth.component';
     SignupComponent,
     SplashScreenComponent,
     OtpPageComponent, 
-    AuthComponentHeader
+    AuthComponentHeader, ForgotPaswordComponent
   ],
   imports: [
     CommonModule,

@@ -2,13 +2,20 @@
     display: flex;
     // justify-content:space-around;
     margin-top: 2%;
-  }
-  
-  .flex-item {
+
+}
+
+.flex-item {
     width: 40px;
+    margin-top: 5%;
     // height: 100px;
-  }
-  
-  .flex-item:nth-last-child(2) {
+}
+
+.flex-item:nth-last-child(1) {
     margin-left: auto;
-  }
+}
+
+.profile {
+    border-radius: 50px;
+    width: 70px;
+}

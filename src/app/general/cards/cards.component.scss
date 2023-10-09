@@ -1,0 +1,74 @@
+.card {
+  margin: 5%;
+  margin-bottom: 20%;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.flex-item {
+  width: 40px;
+}
+
+.flex-item:nth-last-child(1) {
+  margin-left: auto;
+}
+
+.profile {
+  border-radius: 50px;
+  width: 50px;
+}
+
+.profile-name {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.user-name {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-image {
+  width: 343px;
+  //    max-height: 181px;
+  margin: auto;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5%;
+}
+
+.text {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-top: 5%;
+}
