@@ -40,9 +40,14 @@
   </mat-drawer>
 
   <div class="example-sidenav-content">
-    <button type="button" mat-button (click)="drawer.toggle()">
+    <div class="flex-container header">
+      <div (click)="drawer.toggle()" class="profile" style="color: #5034ef">
+        <img src="../../assets/jpegs/Avatar.png" alt="" srcset="" />
+      </div>
+    </div>
+    <!-- <button type="button" mat-button (click)="drawer.toggle()">
       Toggle sidenav
-    </button>
+    </button> -->
 
     <app-feed-posts></app-feed-posts>
   </div>

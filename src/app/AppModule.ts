@@ -11,6 +11,7 @@ import { MainModule } from './main/main.module';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { GeneralModule } from './general/general.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import 'boxicons';
 
 @NgModule({
   declarations: [

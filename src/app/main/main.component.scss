@@ -10,8 +10,32 @@
   align-items: center;
   justify-content: center;
 }
+.header {
+  padding: 2% 0% 2% 8%;
+}
 
 .example-sidenav {
   //   background-color: blueviolet;
   background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  // justify-content:space-around;
+  margin-top: 2%;
+}
+
+.flex-item {
+  width: 40px;
+  margin-top: 5%;
+  // height: 100px;
+}
+
+.flex-item:nth-last-child(1) {
+  margin-left: auto;
+}
+
+.profile {
+  border-radius: 50px;
+  width: 70px;
 }
